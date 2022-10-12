@@ -1,0 +1,9 @@
+Method for index building:
+1. gffread was installed in Conda environment.
+2.gff3 index file was converted into gtf.
+3. index was created using STAR.
+4. I used STAR because of its higher mapping rate and suitability for paired-end data.
+
+Method for sample aligning
+1. STAR is used to align RNA fastq sequences resulting in .bam files.
+2. total number & percentage of reads/read pairs and number & percentage were listed by reading Log.final.out files. 
